@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(232, 255, 232);
+    
+}
+.cabecalho{
+    background-color: yellowgreen;
+    height: 100px;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 49px;
+    background-color: #366327;
+    color: #baff79;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-campos{
+    margin-top: 50px;
+    margin-right: 170px;
+    background-color: #baff79;
+    border-radius: 15px;
+    padding: 10px;
+    
+   
+    
+}
+
+h2{
+   
+    color: #366327;;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+.campos input{
+    margin: 3px;
+    border: none;
+    background-color: #ffffff;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.campos input::placeholder{
+    color: #366327;
+}
+
+.campos button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: #366327;
+    color: white;
+}
+
+.campos button:hover{
+    background-color: #294b1e;
+
+}
+.campos button:active{
+    background-color: #4e883b;
+    width: 304px;
+    height: 44px;
+}
+
+
+
+/* Tabela */
+
+table{
+    background-color: rgb(255, 255, 255);
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.pricipal-div{
+    margin: 0 auto;
+    
+}
+h3{
+    color: #366327;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+th{
+    color: #366327;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+td{
+    font-size: 17px;
+    color: #366327;
+}
+
+td, th{
+    border: 2px solid #366327;
+    padding: 10px 20px; 
+}
