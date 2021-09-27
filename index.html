@@ -17,13 +17,13 @@
     </header>
     
     <main class="menu">
-    <form action="" class="form">
+    <form action="JavaScript: aoEnviar()" class="form" name="form">
         <div class="section-campos">
             <h2>Preencha os campos</h2>
             <div class="campos">
-                <input class="input-nome" type="text" name="nome" id="nome-form" placeholder="Nome e sobrenome">
-                <input type="number" name="peso" id="peso-form" placeholder="Insira o seu peso">
-                <input type="number" name="altura" id="altura-form" placeholder="Insira a suaaltura">
+                <input class="input-nome" type="text" name="nome" id="nome-form" required="required" placeholder="Nome e sobrenome" onchange="pegaNome()">
+                <input type="text" name="peso" id="peso-form" placeholder="Informe o seu peso (Exemplo: 60)" required="required" onchange="pegaPeso()">
+                <input type="text" name="altura" id="altura-form" placeholder="Informe a sua altura (Exemplo: 1.70)" required="required" onchange="pegaAltura()">
                  <button type="submit">Enviar dados</button>
             </div>
            
@@ -33,7 +33,7 @@
     <section class="section">
         <div class="pricipal-div">
             <h3>Tabela de IMC</h3>
-            <table>
+            <table id="tabela-imc">
                 <thead class="cabeca-tabela">
                     <tr>
                         <th>Nome</th>
@@ -43,24 +43,15 @@
                     </tr>
                 </thead>
                 <tbody class="corpo-tabela">
+
                     <tr class="corpo-tabela">
                         <td class="corpo-tabela">Renan</td>
-                        <td>62</td>
-                        <td>1.76</td>
-                        <td>8h</td>
+                        <td id="tdPeso">62</td>
+                        <td id="tdAltura">1.76</td>
+                        <td id="tdImc">20.24</td>
                     </tr>
-                    <tr>
-                        <td>Renan</td>
-                        <td>62</td>
-                        <td>1.76</td>
-                        <td>8h</td>
-                    </tr>
-                    <tr>
-                        <td>Renan</td>
-                        <td>62</td>
-                        <td>1.76</td>
-                        <td>8h</td>
-                    </tr>
+                   
+                  
                     
 
                 </tbody>
@@ -68,6 +59,15 @@
         </div>
     </section>
 </main>
+<footer class="rodape">
+    <h4>Academia Nutri+ &copy; </h4>
+</footer>
+
+<script laguage="JavaScript" src="./adicionar-na-tabela.js"></script>
+<script laguage="JavaScript"  src="./calcula-imc.js"></script>
+<script laguage="JavaScript"  src="./dados.js"></script>
+<script laguage="JavaScript"  src="./elementos.js"></script>
+
 </body>
 
 </html>
