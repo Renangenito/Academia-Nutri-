@@ -11,3 +11,4 @@ function pegaAltura() {
     valorAltura = form.altura.value;
     console.log(valorAltura)
 }
+

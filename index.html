@@ -15,58 +15,62 @@
     <header class="cabecalho">
         <h1>Academia Nutri+</h1>
     </header>
-    
+
     <main class="menu">
-    <form action="JavaScript: aoEnviar()" class="form" name="form">
-        <div class="section-campos">
-            <h2>Preencha os campos</h2>
-            <div class="campos">
-                <input class="input-nome" type="text" name="nome" id="nome-form" required="required" placeholder="Nome e sobrenome" onchange="pegaNome()">
-                <input type="text" name="peso" id="peso-form" placeholder="Informe o seu peso (Exemplo: 60)" required="required" onchange="pegaPeso()">
-                <input type="text" name="altura" id="altura-form" placeholder="Informe a sua altura (Exemplo: 1.70)" required="required" onchange="pegaAltura()">
-                 <button type="submit">Enviar dados</button>
+        <form action="JavaScript: aoEnviar()" class="form" name="form">
+            <div class="section-campos">
+                <h2>Preencha os campos</h2>
+                <div class="campos">
+                    <input class="input-nome" type="text" name="nome" id="nome-form" required="required"
+                        placeholder="Nome e sobrenome" onchange="pegaNome()">
+                    <input type="text" name="peso" id="peso-form" placeholder="Informe o seu peso (Exemplo: 60)"
+                        required="required" onchange="pegaPeso()">
+                    <input type="text" name="altura" id="altura-form" placeholder="Informe a sua altura (Exemplo: 1.70)"
+                        required="required" onchange="pegaAltura()">
+                    <button type="submit">Enviar dados</button>
+                </div>
+
             </div>
-           
-        </div>
 
-    </form>
-    <section class="section">
-        <div class="pricipal-div">
-            <h3>Tabela de IMC</h3>
-            <table id="tabela-imc">
-                <thead class="cabeca-tabela">
-                    <tr>
-                        <th>Nome</th>
-                        <th>Peso</th>
-                        <th>Altura</th>
-                        <th>IMC</th>
-                    </tr>
-                </thead>
-                <tbody class="corpo-tabela">
+        </form>
+        <section class="section">
+            <div class="pricipal-div">
+                <h3>Tabela de IMC</h3>
+                <table id="tabela-imc">
+                    <thead class="cabeca-tabela">
+                        <tr>
+                            <th>Nome</th>
+                            <th>Peso(Kg)</th>
+                            <th>Altura(m)</th>
+                            <th>IMC</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpo-tabela">
 
-                    <tr class="corpo-tabela">
-                        <td class="corpo-tabela">Renan</td>
-                        <td id="tdPeso">62</td>
-                        <td id="tdAltura">1.76</td>
-                        <td id="tdImc">20.24</td>
-                    </tr>
-                   
-                  
-                    
+                        <tr>
+                            <td>Renan Lima</td>
+                            <td>62</td>
+                            <td>1.76</td>
+                            <td>20.02</td>
+                        </tr>
 
-                </tbody>
-            </table>
-        </div>
-    </section>
-</main>
-<footer class="rodape">
-    <h4>Academia Nutri+ &copy; </h4>
-</footer>
 
-<script laguage="JavaScript" src="./adicionar-na-tabela.js"></script>
-<script laguage="JavaScript"  src="./calcula-imc.js"></script>
-<script laguage="JavaScript"  src="./dados.js"></script>
-<script laguage="JavaScript"  src="./elementos.js"></script>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <h4>Academia Nutri+ &copy; </h4>
+    </footer>
+
+    <script laguage="JavaScript" src="./dados.js"></script>
+    <script laguage="JavaScript" src="./elementos.js"></script>
+    <script laguage="JavaScript" src="./adicionar-na-tabela.js"></script>
+    <script laguage="JavaScript" src="./calcula-imc.js"></script>
+    <script laguage="JavaScript" src="./remove-da-tabela.js"></script>
 
 </body>
 

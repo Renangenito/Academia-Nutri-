@@ -117,6 +117,10 @@ h3{
     font-weight: bold;
 }
 
+th:nth-child(1){
+    width: 200px;
+}
+
 th{
     color: #366327;
     font-size: 20px;
