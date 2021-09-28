@@ -10,7 +10,7 @@ function aoEnviar() {
     montaTr()
     tBody.appendChild(montaTr())
     tabela.appendChild(tBody)
-    alert("É POSSÍVEL APAGAR UM ITEM DA TABELA COM O DUPLO CLICK SOBRE O NOME!")
+    alert("É POSSÍVEL APAGAR UM ITEM DA TABELA COM O DUPLO CLICK SOBRE O NOME DA PESSOA!")
     
     form.reset()
     
