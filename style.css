@@ -160,3 +160,24 @@ h4{
     width: 100%;
     color: #baff79;
 }
+
+.pesquisar{
+    width: 204px;
+    height: 28px;
+    margin-top: 21px;
+    border: none;
+    background-color: #366327;
+    color: white;
+}
+
+.pesquisar:hover{
+    
+    background-color: #294b1e;
+    
+}
+
+.pesquisar:active{
+    background-color: #4e883b;
+    width: 206px;
+    height: 30px;
+}   
