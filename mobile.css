@@ -1,0 +1,56 @@
+@media screen and (max-width: 823px){
+ .cabecalho{
+     width: 411px;
+     height: 100px;
+    
+ }   
+ .menu{
+     margin-top: 100px;
+     display: block;
+ }
+
+ .section-campos{
+     margin: auto;
+     width: 350px;
+ }
+
+ h2{
+     margin-left: 18px;
+ }
+
+ .campos button{
+     margin-top: 5px;
+ }
+
+ th:nth-child(1) {
+    width: 130px;
+}
+
+ td:nth-child(1){
+    width: 20px;
+}
+
+ 
+td{
+    font-size: 17px;
+    color: #366327;
+}
+
+td, th{
+    border: 2px solid #366327;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.rodape{
+    width: 411px;
+    height: 90px;
+    background-color: yellowgreen;
+   
+}
+
+h4{
+    padding-bottom: 70px;
+}
+
+}
